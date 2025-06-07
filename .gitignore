@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# Ignorar pastas de compilação e binários (Home-Cockpit-Panel)
+/bin/
+/build/
+/obj/
+
+# Ignorar arquivos temporários do CodeBlocks
+*.cbp
+*.layout
+*.depend
+*.workspace
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos do sistema operacional (caso existam)
+Thumbs.db
+.DS_Store
